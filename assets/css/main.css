@@ -1,6 +1,6 @@
 @import url(font-awesome.min.css);
 /*@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400";*/
-@import "https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed";
+@import "https://fonts.googleapis.com/css?family=Roboto:400,900|Roboto+Condensed";
 
 /*
 	Stellar by HTML5 UP
@@ -1699,7 +1699,7 @@
 		}
 
 	strong, b {
-		font-weight: 400;
+		font-weight: 900;
 	}
 
 	em, i {

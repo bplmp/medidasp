@@ -1893,10 +1893,10 @@
 	input[type="button"],
 	button,
 	.button {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
+		/*-moz-appearance: none;*/
+		/*-webkit-appearance: none;*/
+		/*-ms-appearance: none;*/
+		/*appearance: none;*/
 		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -2071,10 +2071,10 @@
 	input[type="email"],
 	select,
 	textarea {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
+		/*-moz-appearance: none;*/
+		/*-webkit-appearance: none;*/
+		/*-ms-appearance: none;*/
+		/*appearance: none;*/
 		border-radius: 8px;
 		border: solid 1px;
 		color: inherit;
@@ -2082,7 +2082,7 @@
 		outline: 0;
 		padding: 0 1em;
 		text-decoration: none;
-		width: 100%;
+		/*width: 100%;*/
 	}
 
 		input[type="text"]:invalid,
@@ -2138,10 +2138,10 @@
 
 	input[type="checkbox"],
 	input[type="radio"] {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
+		/*-moz-appearance: none;*/
+		/*-webkit-appearance: none;*/
+		/*-ms-appearance: none;*/
+		/*appearance: none;*/
 		display: block;
 		float: left;
 		margin-right: -2em;
@@ -3845,4 +3845,8 @@
 		.spotlight .content.margin-right {
 			margin-right:2em;
 		}
+}
+
+.img-responsive {
+	max-width: 100%;
 }

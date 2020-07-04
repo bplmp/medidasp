@@ -6,7 +6,7 @@ var map = new mapboxgl.Map({
   center: [-46.6469, -23.5617],
   zoom: 12,
   hash: true,
-  attributionControl: false,
+  attributionControl: true,
 });
 
 map.addControl(new mapboxgl.AttributionControl({
